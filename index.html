@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fitness Online</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <header>
+    <nav
+      class="flex justify-end items-center p-4 absolute top-0 right-0 left-0 z-20"
+    >
+      <ul class="flex space-x-6 text-white text-xs sm:text-sm font-normal">
+        <li><a href="#" class="hover:underline">About Us</a></li>
+        <li><a href="#" class="hover:underline">How To Start</a></li>
+        <li><a href="#" class="hover:underline font-semibold">Programs</a></li>
+        <li><a href="#" class="hover:underline">Pricing</a></li>
+        <li><a href="#" class="hover:underline">Feedback</a></li>
+        <li><a href="#" class="hover:underline">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="flex flex-col md:flex-row min-h-[480px]">
+    <div
+      class="bg-[#5B2E9B] flex flex-col justify-center px-8 py-16 md:px-16 md:py-24 md:w-1/2"
+    >
+      <div class="flex items-center space-x-2 mb-12">
+        <i class="fas fa-dumbbell text-white text-lg"></i>
+        <span class="text-white text-sm sm:text-base font-normal">
+          fitness <span class="font-semibold">online</span>
+        </span>
+      </div>
+      <h1
+        class="text-white text-3xl sm:text-4xl font-semibold leading-tight max-w-xs sm:max-w-md mb-4"
+      >
+        Online Workout<br />Personal Program
+      </h1>
+      <p class="text-white text-xs sm:text-sm max-w-xs sm:max-w-sm mb-8">
+        Start training online with your personal coach and become healthy
+      </p>
+      <button
+        type="button"
+        class="bg-[#00C9B1] text-white font-semibold text-xs sm:text-sm rounded-full px-6 py-2 w-max hover:bg-[#00b39f] transition"
+      >
+        Start Training
+      </button>
+    </div>
+    <div class="md:w-1/2">
+      <img
+        src="./images/lifting.jpg"
+        alt="Man lifting barbell in gym on black rubber floor wearing black and orange shorts and black and white sneakers"
+        class="w-full h-full object-cover"
+        width="600"
+        height="480"
+      />
+    </div>
+  </section>
+
+  <section class="py-12 px-6 sm:px-12">
+    <h2 class="text-center text-gray-900 font-semibold text-lg sm:text-xl mb-8">
+      About Us
+    </h2>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto"
+    >
+      <img
+        src="./images/como-treinar-biceps.jpg"
+        alt="Man exercising outdoors wearing black tank top and shorts, city buildings in background"
+        class="w-full h-auto object-cover rounded"
+      />
+      <img
+        src="./images/exercicio perna.jpg"
+        alt="Man exercising outdoors wearing black tank top and shorts, city buildings in background"
+        class="w-full h-auto object-cover rounded"
+      />
+    </div>
+  </section>
+</body>
+</html>
